@@ -1,0 +1,22 @@
+In object-oriented programming, polymorphism is the ability of a class to take on multiple forms or be treated as a base class. 
+It allows objects of different classes to be accessed and manipulated through a common interface. 
+Polymorphism enables flexibility & extensibility in software design, making easier to add new classes & behaviors without modifying existing code.
+
+Now, let's break down the code snippet you provided to understand polymorphism:
+
+java
+Copy code
+vehicle V = new car();
+
+Classes: The code snippet involves two classes: vehicle and car. vehicle is likely a base class or an interface, while car is a derived class or a subclass that inherits from the vehicle class.
+
+Object Creation: The right side of the assignment statement new car() creates a new object of the class car. This object is of type car and represents a specific car instance in memory.
+
+Reference Variable: The left side of the assignment statement vehicle V declares a reference variable named V of type vehicle. This reference variable can hold a reference to objects of any class that is a subclass of vehicle.
+
+Polymorphism: Here comes the polymorphic aspect. Since car is a subclass of vehicle, it can be treated as a vehicle object due to polymorphism. This means that the reference variable V, which is of type vehicle, can now hold the reference to the car object.
+
+Interface and Method Access: Assuming there are some common methods declared in the vehicle class, you can access those methods using the reference variable V. For example, if both vehicle and car have a method start(), you can call it like this: V.start();. The method start() of the car class will be invoked.
+
+The power of polymorphism lies in the ability to treat related classes as interchangeable, which simplifies code and enhances flexibility. By programming to a common interface (in this case, the vehicle class), you can use different derived classes (like car, bike, truck, etc.) without having to worry about their specific implementations, 
+as long as they adhere to the methods and properties defined in the vehicle class. This makes your code more modular and easier to maintain and extend.

@@ -1,0 +1,11 @@
+As long as a function is not completely executed it will remain in Stack memory.
+Main is the First function to be executed and last one to be popped out of the stack.
+
+Why Recursion: It help us to solve bigger problems, by breaking them up into smaller problems.
+Space complexity is not constant. So you have to figure out when to use recursion and
+when to use iteration.
+
+IMP- Use recursive tree to visually figure out the problem.
+Hint to recursion- try to see if there is a smaller version of the problem.
+
+When we write recursion in formula it is called recurrence relation.
