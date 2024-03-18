@@ -1,4 +1,4 @@
-package X_CollecntionsSupport;
+package X_ArrayString_InBuiltFunc;
 
 import java.util.*;
 
