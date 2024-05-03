@@ -1,0 +1,7 @@
+[iterator]
+1. Can traverse Map, List and Set. (But only in forward direction.)
+2. Can't modify or add elements. But can remove elements.
+
+[ListIterator]
+1. Can traverse only List. (but in forward and backward direction)
+2. Can modify, add or add elements. using set() or add()

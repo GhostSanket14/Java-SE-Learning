@@ -1,0 +1,6 @@
+1. LL Good memory utilization compared to AL, since AL creates new array in which it has empty area. LL has no empty area
+   Same reason why deletion is better in LL. after deletion we have to either recopy the array or leave empty spot
+2. Data access is slow, as we have to traverse LL. But AL has index hence fast access.
+3. Fast insertion as we dont to grow and recopy unlike array. Hence AL have slow insertion.
+
+ I think its enough to give idea. Bye Bye. 

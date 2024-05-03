@@ -26,13 +26,9 @@ public class hirerchyOfStream {
 		
 		int arr[]= {1,2,3,4,5,6};
 		
-		Arrays.stream(arr)
-		.filter(x-> {
-			System.out.println("This is the arr element "+x);
+		Arrays.stream(arr).filter(x-> {System.out.println("This is the arr element "+x);
 			return x>3; // for x<3 OP- 1
 						// for x>3 op- 1 2 3 4     firstFirst is circuit function. as elements after the desired element, are discarded.
-		}) 
-		.findFirst()
-		.getAsInt();
+		}).findFirst().getAsInt();
 	}
 }
