@@ -2,7 +2,7 @@ package OOPs2_generics;
 
 public class one_printArrayGeneric {
 
-	public static<T> void printArray(T ary[]) { // generic function will recognise data type automatically.
+	public static<T> void printArray(T ary[]) { // generic function will recognize data type automatically.
 		for(int i=0;i<ary.length;i++) {
 			System.out.println(ary[i]);
 		}
